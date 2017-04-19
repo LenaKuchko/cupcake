@@ -10,6 +10,11 @@ html{
   background-color: lightpink;
 
 }
+.recipes{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
 .ingredients{
   font-size: 15px;
   color: yellow;
@@ -17,6 +22,7 @@ html{
 }
 
 li {
+  list-style-type: none;
   display: inline-block;
 }
 li a {
@@ -29,4 +35,8 @@ li a {
 li a:hover {
     background-color: #99ccff;
     color: white;
+}
+.sidebar {
+  float: right;
+  background-color: #ff9999 ;
 }
