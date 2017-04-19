@@ -40,3 +40,18 @@ li a:hover {
   float: right;
   background-color: #ff9999 ;
 }
+.column{
+  width: 300px;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.price{
+  text-align: center;
+}
+img{
+  width: 225px;
+  height: 225px;
+}
