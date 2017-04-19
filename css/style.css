@@ -1,0 +1,32 @@
+
+.home {
+  background: url(cupcakes.jpg) no-repeat top center fixed;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+}
+
+html{
+  background-color: lightpink;
+
+}
+.ingredients{
+  font-size: 15px;
+  color: yellow;
+  font-family: fantasy;
+}
+
+li {
+  display: inline-block;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #99ccff;
+    color: white;
+}
